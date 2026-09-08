@@ -1,17 +1,56 @@
-# mobile_track2
+# Mobile Track 2 - Firebase Authentication
 
-A new Flutter project.
+A Flutter application demonstrating user authentication using Firebase Authentication.
 
-## Getting Started
+## Project Overview
 
-This project is a starting point for a Flutter application.
+This project was created as part of Mobile Development Track 2.
 
-A few resources to get you started if this is your first Flutter project:
+The application allows users to:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Create a new account
+- Log in using their email and password
+- View their logged-in account
+- Log out securely
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Firebase Authentication is used to manage user accounts and authentication.
+
+## Technologies Used
+
+- Flutter
+- Dart
+- Firebase
+- Firebase Authentication
+- Git
+- GitHub
+
+## Features
+
+### User Registration
+
+Users can create an account using their email address and password.
+
+The application validates registration details and displays appropriate error messages when registration fails.
+
+### User Login
+
+Existing users can log in using their registered email address and password.
+
+### Logged-in User
+
+After successfully logging in, the user is taken to a logged-in screen where their Firebase account email is displayed.
+
+### Logout
+
+Users can log out of their account. Firebase Authentication signs the user out and returns them to the login screen.
+
+## Firebase Configuration
+
+The application uses Firebase Authentication with the Email/Password sign-in provider.
+
+Firebase is initialized when the application starts using the generated Firebase configuration.
+
+The Firebase configuration is stored in:
+
+```text
+lib/firebase_options.dart
