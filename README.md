@@ -32,6 +32,7 @@ Users can create an account using their email address and password.
 
 The application validates registration details and displays appropriate error messages when registration fails.
 
+
 ### User Login
 
 Existing users can log in using their registered email address and password.
