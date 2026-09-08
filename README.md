@@ -55,3 +55,21 @@ The Firebase configuration is stored in:
 
 ```text
 lib/firebase_options.dart
+
+## Screenshots
+
+### Login
+
+![Login Screen](screenshots/Screenshot%20from%202026-09-08%2013-36-20.png)
+
+### Registration
+
+![Registration Screen](screenshots/Screenshot%20from%202026-09-08%2013-36-30.png)
+
+### Logged In
+
+![Logged In Screen](screenshots/Screenshot%20from%202026-09-08%2013-36-38.png)
+
+### Logout
+
+![Logout Screen](screenshots/Screenshot%20from%202026-09-08%2013-36-44.png)
